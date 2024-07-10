@@ -1,0 +1,33 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Login Tests" verbose="1">
+    <test name="Valid Login">
+        <classes>
+            <class name="LoginTest"/>
+        </classes>
+    </test>
+
+    <test name="Invalid Username" preserve-order="false">
+        <classes>
+            <class name="InvalidLoginTest">
+                <methods>
+                    <include name="invalidUserTest"/>
+                </methods>
+            </class>
+            <class name="InvalidLoginTest"/>
+        </classes>
+    </test>
+
+    <test name="Invalid Password" preserve-order="false">
+        <classes>
+            <class name="InvalidLoginTest">
+                <methods>
+                    <include name="invalidPasswordTest"/>
+                </methods>
+            </class>
+            <class name="InvalidLoginTest"/>
+        </classes>
+    </test>
+
+
+</suite>
