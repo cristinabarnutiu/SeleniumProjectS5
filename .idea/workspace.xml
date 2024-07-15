@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89e64d31-6b25-43bc-8948-004cbf6da71d" name="Changes" comment="" />
+    <list default="true" id="89e64d31-6b25-43bc-8948-004cbf6da71d" name="Changes" comment="first commit - curs 10 iulie 2024">
+      <change afterPath="$PROJECT_DIR$/src/test/java/DropdownTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/KeyPressesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/testngParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/InvalidLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/InvalidLoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/InvalidLoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/InvalidLoginTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testng.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,18 +45,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/cristina/IdeaProjects/SeleniumProjectS5"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/cristina/IdeaProjects/SeleniumProjectS5/src/test/resources&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="TestNG.C:/Users/cristina/IdeaProjects/SeleniumProjectS5/src/test/resources/testng.xml">
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\cristina\IdeaProjects\SeleniumProjectS5\src\test\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.DropdownTest">
+    <configuration name="C:/Users/cristina/IdeaProjects/SeleniumProjectS5/src/test/resources/testngParam.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumProjectS5" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testngParam.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="C:/Users/cristina/IdeaProjects/SeleniumProjectS5/src/test/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumProjectS5" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testng.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DropdownTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumProjectS5" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DropdownTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -65,23 +102,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="KeyPressesTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumProjectS5" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LoginTest" />
+      <option name="MAIN_CLASS_NAME" value="KeyPressesTest" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTest.loginTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumProjectS5" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LoginTest" />
-      <option name="METHOD_NAME" value="loginTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -90,10 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Users/cristina/IdeaProjects/SeleniumProjectS5/src/test/resources/testng.xml" />
+        <item itemvalue="TestNG.DropdownTest" />
+        <item itemvalue="TestNG.KeyPressesTest" />
+        <item itemvalue="TestNG.C:/Users/cristina/IdeaProjects/SeleniumProjectS5/src/test/resources/testngParam.xml" />
         <item itemvalue="TestNG.InvalidLoginTest" />
-        <item itemvalue="TestNG.LoginTest" />
-        <item itemvalue="TestNG.LoginTest.loginTest" />
+        <item itemvalue="TestNG.C:/Users/cristina/IdeaProjects/SeleniumProjectS5/src/test/resources/testng.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -106,6 +132,18 @@
       <option name="presentableId" value="Default" />
       <updated>1720625933920</updated>
     </task>
+    <task id="LOCAL-00001" summary="first commit - curs 10 iulie 2024">
+      <created>1720635119852</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1720635119852</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit - curs 10 iulie 2024" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit - curs 10 iulie 2024" />
   </component>
 </project>
