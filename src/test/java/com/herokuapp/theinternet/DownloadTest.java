@@ -1,3 +1,5 @@
+package com.herokuapp.theinternet;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -8,14 +10,13 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.*;
 
-public class KeyPressesTest {
+public class DownloadTest {
     WebDriver driver;
-
     @Parameters({"browserParam"})
     @BeforeTest(alwaysRun = true)
     public void setUp(@Optional("chrome") String browser){
         //open page
-        String url = "https://the-internet.herokuapp.com/key_presses";
+        String url = "https://the-internet.herokuapp.com/download";
         //driver = new ChromeDriver();
 
         switch (browser){
@@ -31,22 +32,36 @@ public class KeyPressesTest {
     }
 
     @Test
-    public void keypressTest(){
-        WebElement input = driver.findElement(By.xpath("//*[@id=\"target\"]"));
-        input.sendKeys(Keys.BACK_SPACE);
+    public void downloadTest(){
+        WebElement downloadLink = driver.findElement(By.linkText("Test1.pdf"));
+        downloadLink.click();
+        downloadLink.sendKeys(Keys.ENTER);
+        String downloadedPath = "C:\\Users\\cristina\\Downloads\\Test1.pdf";
+        Assert.assertFalse(downloadedPath.isEmpty());
 
-        WebElement result = driver.findElement(By.cssSelector("p#result"));
-        String actualResultMessage = result.getText();
-        String expectedResultMessage = "You entered: BACK_SPACE";
 
-        Assert.assertEquals(expectedResultMessage,actualResultMessage);
+
+
+
+
+
+
+
+
 
     }
-
 
     @AfterTest(alwaysRun = true)
     public void tearDown(){
         driver.close();
+    }
+
+    public void wait(int milliseconds) {
+        try {
+            driver.wait(milliseconds);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
     }
 
 }

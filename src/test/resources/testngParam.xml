@@ -8,7 +8,7 @@
         <parameter name="passwordParam"  value="SuperSecretPassword!"/>
         <parameter name="errorMessageParam"  value="Your username is invalid!"/>
         <classes>
-            <class name="InvalidLoginTest"/>
+            <class name="com.herokuapp.theinternet.InvalidLoginTest"/>
         </classes>
     </test>
 
@@ -19,7 +19,7 @@
             <parameter name="passwordParam"  value="incorrect"/>
             <parameter name="errorMessageParam"  value="Your password is invalid!"/>
             <classes>
-                <class name="InvalidLoginTest"/>
+                <class name="com.herokuapp.theinternet.InvalidLoginTest"/>
             </classes>
         </test>
 

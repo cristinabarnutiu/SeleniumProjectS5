@@ -1,3 +1,5 @@
+package com.herokuapp.theinternet;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -9,7 +11,8 @@ import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.*;
 
-    public class DropdownTest {
+
+public class DropdownTest {
         WebDriver driver;
 
         @Parameters({"browserParam"})
@@ -25,7 +28,6 @@ import org.testng.annotations.*;
                 case "firefox": driver = new FirefoxDriver(); break;
                 default: driver = new ChromeDriver();
             }
-
 
             driver.get(url);
             driver.manage().window().maximize();
@@ -51,6 +53,16 @@ import org.testng.annotations.*;
             driver.close();
         }
 
+        public void wait(int milliseconds) {
+            try {
+                driver.wait(milliseconds);
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
+        }
+
     }
+
+
 
 

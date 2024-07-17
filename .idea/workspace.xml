@@ -4,14 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89e64d31-6b25-43bc-8948-004cbf6da71d" name="Changes" comment="first commit - curs 10 iulie 2024">
-      <change afterPath="$PROJECT_DIR$/src/test/java/DropdownTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/KeyPressesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/testngParam.xml" afterDir="false" />
+    <list default="true" id="89e64d31-6b25-43bc-8948-004cbf6da71d" name="Changes" comment="new commit - curs inregistrat 15 iulie 2024">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/DynamicElementsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/herokuapp/theinternet/CheckboxTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/herokuapp/theinternet/DownloadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/herokuapp/theinternet/UploadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/myFile.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/InvalidLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/InvalidLoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DropdownTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/herokuapp/theinternet/DropdownTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/InvalidLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/herokuapp/theinternet/InvalidLoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/KeyPressesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/herokuapp/theinternet/KeyPressesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/herokuapp/theinternet/LoginTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/InvalidLoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/InvalidLoginTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testngParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testngParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/InvalidLoginTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/LoginTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,39 +58,43 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/cristina/IdeaProjects/SeleniumProjectS5/src/test/resources&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/cristina/IdeaProjects/MySeleniumPageObjectModelProject&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\cristina\IdeaProjects\SeleniumProjectS5\src\test\resources" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
-  <component name="RunManager" selected="TestNG.DropdownTest">
-    <configuration name="C:/Users/cristina/IdeaProjects/SeleniumProjectS5/src/test/resources/testngParam.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumProjectS5" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testngParam.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.C:/Users/cristina/IdeaProjects/SeleniumProjectS5/src/test/resources/testng.xml">
     <configuration name="C:/Users/cristina/IdeaProjects/SeleniumProjectS5/src/test/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumProjectS5" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testng.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DropdownTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DownloadTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumProjectS5" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DropdownTest" />
+      <option name="MAIN_CLASS_NAME" value="com.herokuapp.theinternet.DownloadTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -91,10 +102,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InvalidLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DynamicElementTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumProjectS5" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="InvalidLoginTest" />
+      <option name="MAIN_CLASS_NAME" value="DynamicElementTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -102,10 +113,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KeyPressesTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DynamicElementsTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumProjectS5" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="KeyPressesTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demoqa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.demoqa" />
+      <option name="MAIN_CLASS_NAME" value="com.demoqa.DynamicElementsTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -113,13 +130,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DynamicElementsTest.checkDynamicElementTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumProjectS5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demoqa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.demoqa" />
+      <option name="MAIN_CLASS_NAME" value="com.demoqa.DynamicElementsTest" />
+      <option name="METHOD_NAME" value="checkDynamicElementTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.C:/Users/cristina/IdeaProjects/SeleniumProjectS5/src/test/resources/testng.xml" />
+      <item itemvalue="TestNG.DownloadTest" />
+      <item itemvalue="TestNG.DynamicElementsTest" />
+      <item itemvalue="TestNG.DynamicElementsTest.checkDynamicElementTest" />
+      <item itemvalue="TestNG.DynamicElementTest" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.DropdownTest" />
-        <item itemvalue="TestNG.KeyPressesTest" />
-        <item itemvalue="TestNG.C:/Users/cristina/IdeaProjects/SeleniumProjectS5/src/test/resources/testngParam.xml" />
-        <item itemvalue="TestNG.InvalidLoginTest" />
         <item itemvalue="TestNG.C:/Users/cristina/IdeaProjects/SeleniumProjectS5/src/test/resources/testng.xml" />
+        <item itemvalue="TestNG.DynamicElementsTest.checkDynamicElementTest" />
+        <item itemvalue="TestNG.DynamicElementsTest" />
+        <item itemvalue="TestNG.DynamicElementTest" />
+        <item itemvalue="TestNG.DownloadTest" />
       </list>
     </recent_temporary>
   </component>
@@ -139,11 +181,22 @@
       <option name="project" value="LOCAL" />
       <updated>1720635119852</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="new commit - curs inregistrat 15 iulie 2024">
+      <created>1721070239050</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1721070239050</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit - curs 10 iulie 2024" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit - curs 10 iulie 2024" />
+    <MESSAGE value="new commit - curs inregistrat 15 iulie 2024" />
+    <option name="LAST_COMMIT_MESSAGE" value="new commit - curs inregistrat 15 iulie 2024" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SeleniumProjectS5$CheckboxTest.ic" NAME="CheckboxTest Coverage Results" MODIFIED="1721232920802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

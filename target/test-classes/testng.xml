@@ -4,29 +4,29 @@
 <suite name="Login Tests" verbose="1">
     <test name="Valid Login">
         <classes>
-            <class name="LoginTest"/>
+            <class name="com.herokuapp.theinternet.LoginTest"/>
         </classes>
     </test>
 
     <test name="Invalid Username" preserve-order="false">
         <classes>
-            <class name="InvalidLoginTest">
+            <class name="com.herokuapp.theinternet.InvalidLoginTest">
                 <methods>
                     <include name="invalidUserTest"/>
                 </methods>
             </class>
-            <class name="InvalidLoginTest"/>
+            <class name="com.herokuapp.theinternet.InvalidLoginTest"/>
         </classes>
     </test>
 
     <test name="Invalid Password" preserve-order="false">
         <classes>
-            <class name="InvalidLoginTest">
+            <class name="com.herokuapp.theinternet.InvalidLoginTest">
                 <methods>
                     <include name="invalidPasswordTest"/>
                 </methods>
             </class>
-            <class name="InvalidLoginTest"/>
+            <class name="com.herokuapp.theinternet.InvalidLoginTest"/>
         </classes>
     </test>
 
